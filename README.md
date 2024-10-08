@@ -36,3 +36,16 @@
 | Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab%20%232 |
 | Self Grade | 80/100 |
 | Notes | fixed all the fixmes |
+
+
+### Homework #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | Math & Triangles |
+| Description | Calculates area and perimeter of a triangle |
+| Due Date | Sept 16th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments%20/%20Hello/Homework%20%232 |
+| Self Grade | 90/100 |
+| Notes | nope |
