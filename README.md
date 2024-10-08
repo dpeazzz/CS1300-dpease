@@ -85,7 +85,7 @@
 | Description | Using functions to determine projectile motion using kinematics |
 | Due Date | Sept 30th 2024  |
 | Status | complete |
-| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments%20/%20Hello/Homework%20%233 |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Projects |
 | Self Grade | 100/100 |
 | Notes | nope |
 
