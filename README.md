@@ -49,3 +49,45 @@
 | Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments%20/%20Hello/Homework%20%232 |
 | Self Grade | 90/100 |
 | Notes | nope |
+
+
+### Lab #3
+
+| Name | Value |
+| :--- | :--- |
+| Name | Lab #3 |
+| Description | Distance between 2 points |
+| Due Date | Sept 19th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab%20%233 |
+| Self Grade | 100/100 |
+| Notes | nope |
+
+
+### Homework #3
+
+| Name | Value |
+| :--- | :--- |
+| Name | Unit Testing |
+| Description | Various functions with 2 variables |
+| Due Date | Sept 19th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments%20/%20Hello/Homework%20%233 |
+| Self Grade | 100/100 |
+| Notes | nope |
+
+
+### Project #1
+
+| Name | Value |
+| :--- | :--- |
+| Name | Project |
+| Description | Using functions to determine projectile motion using kinematics |
+| Due Date | Sept 30th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments%20/%20Hello/Homework%20%233 |
+| Self Grade | 100/100 |
+| Notes | nope |
+
+
+
