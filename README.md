@@ -90,4 +90,17 @@
 | Notes | nope |
 
 
+### Lab #4
+
+| Name | Value |
+| :--- | :--- |
+| Name | Lab 4 |
+| Description | Calculator like menu that can calculate with 2 different numbers |
+| Due Date | oct th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab%20%234 |
+| Self Grade | 100/100 |
+| Notes | nope |
+
+
 
