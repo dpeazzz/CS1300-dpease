@@ -1,8 +1,8 @@
-/*=======================
+/*
   Author: Dawson Pease
     Date 10/7/2024
     Projectile Motion 
-========================*/
+*/
 
 #include <iostream>
 #include <cmath>
