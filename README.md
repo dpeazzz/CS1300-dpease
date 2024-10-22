@@ -103,4 +103,17 @@
 | Notes | nope |
 
 
+### homework #4
+
+| Name | Value |
+| :--- | :--- |
+| Name | Homework 4 Conditionals |
+| Description | Menu options to find largest and smallest numbers |
+| Due Date | oct th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments/%20Hello/Homework4 |
+| Self Grade | 1000/100 |
+| Notes | nope |
+
+
 
