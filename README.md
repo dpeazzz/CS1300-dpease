@@ -117,3 +117,17 @@
 
 
 
+### homework #5
+
+| Name | Value |
+| :--- | :--- |
+| Name | Homework 4 Guess the number game |
+| Description | A game where you guess a number 1-20 and have 6 tries to do so |
+| Due Date | oct th 2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments/%20Hello/Homework5 |
+| Self Grade | 100/100 |
+| Notes | nope |
+
+
+
