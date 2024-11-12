@@ -131,3 +131,18 @@
 
 
 
+
+### Lab #5
+
+| Name | Value |
+| :--- | :--- |
+| Name | shape printing & DogGopher game |
+| Description | printing geometric shapes (square and Tringle) given inputed height |
+| Due Date |  2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab5 |
+| Self Grade | 1000/100 |
+| Notes | nope |
+
+
+
