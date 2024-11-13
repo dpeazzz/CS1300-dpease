@@ -146,3 +146,19 @@
 
 
 
+Homework #6
+
+| Name | Value |
+| :--- | :--- |
+| Name | simon says |
+| Description | Kattis problems |
+| Due Date |  2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Assignments/%20Hello/Homework6 |
+| Self Grade | 1000/100 |
+| Notes | nope |
+
+
+
+
+
