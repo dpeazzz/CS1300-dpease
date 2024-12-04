@@ -160,5 +160,34 @@ Homework #6
 
 
 
+Lab #6
+
+| Name | Value |
+| :--- | :--- |
+| Name | modulo |
+| Description |  |
+| Due Date |  2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab6 |
+| Self Grade | 1000/100 |
+| Notes | nope |
+
+
+
+Lab #7
+
+| Name | Value |
+| :--- | :--- |
+| Name | simon says |
+| Description |  |
+| Due Date |  2024  |
+| Status | complete |
+| Location | https://github.com/dpeazzz/CS1300-dpease/tree/main/Labs/Lab7 |
+| Self Grade | 1000/100 |
+| Notes | nope |
+
+
+
+
 
 
