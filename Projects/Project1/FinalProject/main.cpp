@@ -6,7 +6,7 @@ Date: 12/2/24
 
 #include "Game.h"
 
-// Entry point 
+// Entry point func calls loop playgame
 int main() {
     TicTacToe game;  
     game.playGame();  
