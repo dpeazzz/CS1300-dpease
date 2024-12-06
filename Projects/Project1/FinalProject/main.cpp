@@ -6,6 +6,21 @@ Date: 12/2/24
 
 #include "Game.h"
 
+// Collects and validates player information
+void TicTacToe::getPlayerInfo() {
+    cout << "Enter your name: ";  
+    cin >> playerName;
+    do {
+        cout << "Choose your symbol (X or O): ";  
+        cin >> playerSymbol;
+        playerSymbol = toupper(playerSymbol);  
+        if (playerSymbol != 'X' && playerSymbol != 'O') 
+            cout << "Invalid symbol! Please choose 'X' or 'O'.\n";
+    } while (playerSymbol != 'X' && playerSymbol != 'O');  // Validate the symbol
+    lebronSymbol = (playerSymbol == 'X') ? 'O' : 'X';  
+}
+
+
 // Constructor for board
 TicTacToe::TicTacToe() {
     initializeBoard(); 
@@ -33,24 +48,10 @@ void TicTacToe::displayBoard() {
     cout << endl;
 }
 
-// Collects and validates player information
-void TicTacToe::getPlayerInfo() {
-    cout << "Enter your name: ";  
-    cin >> playerName;
-    do {
-        cout << "Choose your symbol (X or O): ";  
-        cin >> playerSymbol;
-        playerSymbol = toupper(playerSymbol);  
-        if (playerSymbol != 'X' && playerSymbol != 'O') 
-            cout << "Invalid symbol! Please choose 'X' or 'O'.\n";
-    } while (playerSymbol != 'X' && playerSymbol != 'O');  // Validate the symbol
-    lebronSymbol = (playerSymbol == 'X') ? 'O' : 'X';  
-}
-
-// Handles player or AI moves
+// Handles player or lebrons moves
 bool TicTacToe::makeMove(int row, int col, char symbol) {
     if (row < 0 || row > 2 || col < 0 || col > 2) { // Validate range
-        cout << "Move out of bounds! Row and column must be between 1 and 3.\n";
+        cout << "Invalid! Row and column must be between 1 and 3.\n";
         return false;
     }
     if (board[row][col] != ' ') { // Check if cell is already occupied
@@ -104,11 +105,11 @@ void TicTacToe::playGame() {
             }
             if (checkWin(playerSymbol)) {  
                 displayBoard();
-                displayOutcome(true);  // Display win message
+                displayOutcome(true);  // Display win message/ascii art
                 break;
             }
         } else {
-            // LeBron's turn (AI)
+            // LeBron's turn 
             cout << "LeBron James' turn (" << lebronSymbol << ").\n";
             bool moveMade = false;
             for (int i = 0; i < 3 && !moveMade; ++i) {
@@ -120,13 +121,13 @@ void TicTacToe::playGame() {
                             return;
                         }
                         moveMade = true;
-                        break;  // Break nested loop
+                        break;  // Break loop
                     }
                 }
             }
         }
 
-        // Check for a draw if board is full
+        // Check for a draw if board is filled 
         if (isBoardFull()) {
             displayBoard();
             cout << "It's a draw! LeBron James respects your skills.\n";
