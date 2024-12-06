@@ -6,6 +6,13 @@ Date: 12/2/24
 
 #include "Game.h"
 
+// Entry point 
+int main() {
+    TicTacToe game;  
+    game.playGame();  
+    return 0;  
+}
+
 // Collects and validates player information
 void TicTacToe::getPlayerInfo() {
     cout << "Enter your name: ";  
@@ -26,14 +33,14 @@ TicTacToe::TicTacToe() {
     initializeBoard(); 
 }
 
-// Creates Tic Tac Toe board with empty spaces
+// calls for initializeboard func to set up blank 3x3 playing board
 void TicTacToe::initializeBoard() {
     for (int i = 0; i < 3; ++i)  
         for (int j = 0; j < 3; ++j)  
             board[i][j] = ' ';  
 }
 
-// Board format
+// display board func 
 void TicTacToe::displayBoard() {
     cout << "  1   2   3\n";  
     for (int i = 2; i >= 0; --i) {  
@@ -48,14 +55,14 @@ void TicTacToe::displayBoard() {
     cout << endl;
 }
 
-// Handles player or lebrons moves
+// Handles player moves 
 bool TicTacToe::makeMove(int row, int col, char symbol) {
-    if (row < 0 || row > 2 || col < 0 || col > 2) { // Validate range
+    if (row < 0 || row > 2 || col < 0 || col > 2) { // validate 1-3 
         cout << "Invalid! Row and column must be between 1 and 3.\n";
         return false;
     }
-    if (board[row][col] != ' ') { // Check if cell is already occupied
-        cout << "Cell already occupied! Choose another spot.\n";
+    if (board[row][col] != ' ') { // validates open space
+        cout << "Space already occupied! Please choose another spot.\n";
         return false;
     }
     board[row][col] = symbol;  
@@ -64,7 +71,7 @@ bool TicTacToe::makeMove(int row, int col, char symbol) {
 
 // Checks for win conditions
 bool TicTacToe::checkWin(char symbol) {
-    // Check rows and columns
+    // Check rows and columns for 3 of a kind
     for (int i = 0; i < 3; ++i) {
         if ((board[i][0] == symbol && board[i][1] == symbol && board[i][2] == symbol) ||  
             (board[0][i] == symbol && board[1][i] == symbol && board[2][i] == symbol))    
@@ -127,7 +134,7 @@ void TicTacToe::playGame() {
             }
         }
 
-        // Check for a draw if board is filled 
+        // if draw, output draw message
         if (isBoardFull()) {
             displayBoard();
             cout << "It's a draw! LeBron James respects your skills.\n";
@@ -149,9 +156,3 @@ void TicTacToe::displayOutcome(bool playerWon) {
     }
 }
 
-// Entry point for the program
-int main() {
-    TicTacToe game;  
-    game.playGame();  
-    return 0;  
-}
